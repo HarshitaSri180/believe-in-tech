@@ -344,7 +344,12 @@ span.dot.h-1.w-8.bg-\[\#006FDE80\].cursor-pointer.active {
 input::placeholder{
   color: #75A5D6 !important;
 }
-
+#navbar-default a {
+	color: #3067a3;
+}
+#navbar-default ul {
+	background: white;
+}
 @media (max-width: 768px) {
   .viewpast {
     justify-content: start !important;
@@ -382,6 +387,19 @@ p.specialist-heading {
   align-items: center !important;
 }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .slider, .our-brand{
+    display: none !important;
+  }
+  .keen-slider__slide {
+    margin-left: 20px;
+  }
+  .full-div, section,.divSpecialist {
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width:1030px) and (min-width:215px) {
   .icons-div.flex.justify-between.max-w-screen-xl.max-md\:max-w-md.mx-auto.p-16 {
     width: 100%;
